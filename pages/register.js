@@ -9,7 +9,7 @@ import { Form, useForm, hasLength, isEmail, isNotEmpty } from "@mantine/form";
 import Link from "next/link";
 // import { Value } from "sass";
 
-const login = () => {
+const register = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
@@ -92,4 +92,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default register;
